@@ -17,7 +17,7 @@ def run_flask():
 clients = {}
 
 def generate_code():
-    return f"LIN-{random.randint(1000, 9999)}"
+    return f"WSP-{random.randint(1000, 9999)}"
 
 async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
     await update.message.reply_text("Привет! Это Lin Logistics. Как вас зовут?")
